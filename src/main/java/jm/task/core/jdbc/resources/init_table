@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS %s(
-id BIGINT NOT NULL auto_increment,
-lastName TINYTEXT,
-firstName TINYTEXT,
-age TINYINT,
-PRIMARY KEY (id));
