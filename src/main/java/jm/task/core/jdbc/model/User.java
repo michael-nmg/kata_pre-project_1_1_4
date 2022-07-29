@@ -60,6 +60,6 @@ public class User {
 
     @Override
     public String toString() {
-        return String.format(" - %s %s: %s", lastName, name, age);
+        return String.format("\t- %s %s: %s", lastName, name, age);
     }
 }
