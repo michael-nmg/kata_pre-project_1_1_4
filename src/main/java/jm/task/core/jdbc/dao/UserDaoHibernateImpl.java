@@ -20,10 +20,7 @@ public class UserDaoHibernateImpl implements UserDao {
     private static Transaction transaction;
     private final SessionFactory sessionFactory = Util.getSessionFactory();
 
-
-    public UserDaoHibernateImpl() {
-
-    }
+    public UserDaoHibernateImpl() {}
 
     @Override
     public void createUsersTable() {
